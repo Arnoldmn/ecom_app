@@ -1,3 +1,4 @@
+import 'package:ecom_app/widget/category.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -14,11 +15,14 @@ class HomePage extends StatelessWidget {
             "Categories",
             style: TextStyle(fontSize: 20),
           ),
-          Category(),
+          SizedBox(
+            height: 10.0,
+          ),
+          CategoryPage(),
           Text(
             "Products",
             style: TextStyle(fontSize: 20),
-            AllProducts(),
+//            AllProducts(),
           )
         ],
       ),
