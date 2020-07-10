@@ -10,12 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Afrique Market',
-      theme: ThemeData(
-        primaryColor: Colors.white
-      ),
+      theme: ThemeData(primaryColor: Colors.white),
       home: HomePage(),
     );
-
   }
 }

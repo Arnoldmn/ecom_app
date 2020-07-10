@@ -13,6 +13,7 @@ class CategoryPage extends StatelessWidget {
             icon: Icon(
               Icons.book,
               size: 40,
+              color: Colors.orange,
             ),
             name: 'Book',
           ),
@@ -20,6 +21,7 @@ class CategoryPage extends StatelessWidget {
             icon: Icon(
               Icons.computer,
               size: 40,
+              color: Colors.orange,
             ),
             name: 'Laptops',
           ),
@@ -27,6 +29,7 @@ class CategoryPage extends StatelessWidget {
             icon: Icon(
               Icons.home,
               size: 40,
+              color: Colors.orange,
             ),
             name: 'Houses',
           ),
@@ -34,6 +37,7 @@ class CategoryPage extends StatelessWidget {
             icon: Icon(
               Icons.watch,
               size: 40,
+              color: Colors.orange,
             ),
             name: 'Watches',
           ),
@@ -41,6 +45,7 @@ class CategoryPage extends StatelessWidget {
             icon: Icon(
               Icons.weekend,
               size: 40,
+              color: Colors.orange,
             ),
             name: 'Furniture',
           ),
@@ -48,8 +53,17 @@ class CategoryPage extends StatelessWidget {
             icon: Icon(
               Icons.phone_android,
               size: 40,
+              color: Colors.orange,
             ),
             name: 'Phones',
+          ),
+          CategoryCard(
+            icon: Icon(
+              Icons.next_week,
+              size: 40,
+              color: Colors.orange,
+            ),
+            name: 'Handbags',
           ),
         ],
       ),
