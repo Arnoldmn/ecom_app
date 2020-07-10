@@ -18,13 +18,6 @@ class Body extends StatelessWidget {
       children: <Widget>[
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
-          child: Text(
-            "",
-            style: Theme.of(context)
-                .textTheme
-                .headline5
-                .copyWith(fontWeight: FontWeight.bold),
-          ),
         ),
         CategoryPage(),
         Expanded(
